@@ -4,11 +4,11 @@ import { navigationModel } from './navigation.model';
 /*Navigation Model*/
 export const navigation: navigationModel[] = [
   {
-    title: 'Home',
+    title: 'home',
     link: '/home',
   },
   {
-    title: 'Contact',
+    title: 'contact',
     link: '/contact',
   },
 ];

@@ -3,15 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { LayoutComponent } from './layout/layout.component';
 
 const routes: Routes = [
-  {
-    path: '',
-    redirectTo: 'home',
-    pathMatch: 'full',
-  },
-  {
-    path: '**',
-    redirectTo: 'home',
-  },
+ 
   {
     path: '',
     component: LayoutComponent,

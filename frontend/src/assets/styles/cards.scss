@@ -1,0 +1,32 @@
+.main-container {
+  height: 100vh;
+  width: 100vw;
+  margin: 0 !important;
+  padding: 0 !important;
+  background: black;
+}
+
+.mat-card {
+  background: transparent !important;
+}
+
+.mat-header-image {
+  background-image: url("https://material.angular.io/assets/img/examples/shiba1.jpg");
+  background-size: cover;
+}
+
+.media-container {
+  overflow-y: scroll;
+}
+
+.title {
+  color: white;
+  font-size: 1.5vw;
+  font-weight: bold;
+  display: inline-block;
+}
+.subtitle {
+  color: #4a4a4a;
+  font-size: 1.12vw;
+  margin-top: 0.5vw;
+}

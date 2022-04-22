@@ -7,11 +7,13 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 /*Angular Material*/
 import { AppMaterialModule } from '../app.material.module';
+import { RouterModule } from '@angular/router';
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     AppMaterialModule,
+    RouterModule
 
   ],
   declarations: [

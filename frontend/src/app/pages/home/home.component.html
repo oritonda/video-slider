@@ -1,1 +1,12 @@
-<p>home works!</p>
+<div class="main-container col-12 d-flex flex-column justify-content-center align-items-center">
+    <div class="media-container col-12 d-flex flex-row p-0">
+        <mat-card class="mat-card col-xs-12 col-sm-12 col-md-4 col-lg-4" *ngFor="let media of media">
+            <img mat-card-image src="{{media.image}}" alt="Photo of a Shiba Inu">
+            <mat-card-content class="d-flex flex-column">
+              <mat-label class="title">{{media.title}}</mat-label>
+              <mat-label class="subtitle">{{media.subtitle}}</mat-label>
+            </mat-card-content>
+          </mat-card>
+    </div>
+      
+</div> 

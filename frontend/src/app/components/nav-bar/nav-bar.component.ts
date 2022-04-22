@@ -1,4 +1,7 @@
+import { navigationModel } from './../../data-structures/navigation/navigation.model';
 import { Component, OnInit } from '@angular/core';
+import { navigation } from 'src/app/data-structures/navigation/navigation.interface';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'nav-bar',
@@ -7,9 +10,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavBarComponent implements OnInit {
 
-  constructor() { }
+  navigation:navigationModel[] = navigation;
+  constructor(private router:Router) { }
 
   ngOnInit(): void {
+  }
+  navigate(link:string){
+this.router.navigate([link])
   }
 
 }
