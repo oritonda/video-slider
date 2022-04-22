@@ -47,7 +47,8 @@ import { NgModule } from "@angular/core";
       useValue: { appearance: "outline" }
     }
   ],
-  imports: [
+
+  exports: [
   
     MatAutocompleteModule,
     MatBadgeModule,
